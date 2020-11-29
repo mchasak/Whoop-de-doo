@@ -1,0 +1,151 @@
+@font-face {
+    font-family: brandon-bold;
+    src: url(/fonts/Brandon-Text-Web-Bold.woff);
+}
+@font-face {
+    font-family: brandon;
+    src: url(/fonts/Brandon-Text-Web-Regular.woff)
+}
+.site {
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    font-family: brandon;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.container-lg {
+    max-width: 960px;
+}
+.container-xl {
+    max-width: 1140px;
+}
+.section {
+    padding: 0 25px;
+}
+
+.text-main {
+    color: #CC0228;
+}
+.text-white {
+    color: #fff;
+}
+.text-muted {
+    color: #979797;
+}
+.title {
+    margin-bottom: 16px;
+}
+.text-tiny {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-family: brandon;
+}
+.text-body {
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 36px;
+    color: #333;
+}
+img {
+    vertical-align: middle;
+}
+.h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    line-height: 44px;
+    letter-spacing: 3.5px;
+    font-family: brandon-bold;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: brandon-bold;
+}
+h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-family: brandon-bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    font-family: brandon-bold;
+    text-transform: uppercase;
+}
+p {
+    font-family: brandon;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+}
+.p {
+    font-size: 28px;
+    line-height: 36px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.btn {
+    background-color:#fff;
+    color:#333;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 100px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8.5px 40px 8.5px 40px;
+    font-family: brandon;
+    border-style: none;
+}
+.btn-grey {
+    background-color:#333;
+    color:#fff;
+}
+.arrow{
+    background-image: url('/images/assets/arrow-right.png');
+    background-size: contain;
+    width: 20px;
+    height: 14px;
+    margin-left: 10px;
+    position: relative;
+    margin-bottom: 5px;
+    transition: transform 0.3s ease-out;
+}
+.btn:hover .arrow {
+    transition: transform 0.3s ease-out;
+    transform: translate(8px);
+}
+@media(min-width: 760px) {
+    .section {
+        padding: 0 60px;
+        max-width: 1400px;
+    }
+    .h1 {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 52px;
+        letter-spacing: 2.5px;
+        font-family: brandon-bold;
+    }
+}
+@media(max-width: 1400px) {
+    * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}

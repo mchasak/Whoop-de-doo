@@ -1,0 +1,42 @@
+.about-cup__content {
+      margin: 0 auto;
+      text-align: center;
+      padding: 72px 0;
+}
+.about-cup__title {
+      margin-bottom: 56px;
+}
+.about-cup__carousel {
+    padding: 0 20px;
+}
+.about-cup__carousel .logos-carousel {
+    position: relative;
+}
+.about-cup__carousel .item img {
+    height: 32px;
+    width: auto;  
+}
+.about-cup__carousel .content {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+@media (min-width: 768px) {
+  .about-cup__content {
+    padding: 88px 0;
+  }
+  .about-cup__title {
+    margin-bottom: 64px;
+  }
+  .about-cup__carousel .item img {
+    height: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .about-cup__content {
+    padding: 96px 0;
+  }
+  .about-cup__title {       
+    margin-bottom: 72px;
+  }
+}

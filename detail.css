@@ -1,0 +1,69 @@
+.detail {
+    background-image: url("/images/sections/detail/detail-bg-sm.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.detail__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.detail__content {
+    text-align: center;
+    max-width: 814px;
+    margin: 0 auto;
+}
+.detail__anna {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.detail__anna-photo {
+    background-image: url('/images/sections/detail/placeholder-anna.png');
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    border-radius: 100%;
+    position: relative;
+    margin-top: 105px;
+    margin-bottom: 16px;
+}
+.detail__anna-photo:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    width: 1px;
+    height: 45px;
+    background-color: white;
+    opacity: 0.5;
+}
+@media (min-width: 768px) {
+    .detail {
+        background-image: url("/images/sections/detail/detail-bg-md.jpg");
+    }
+    .detail__anna-photo:before {
+        top: -95px;
+    }
+}
+@media (min-width: 1024px) {
+    .detail {
+        background-image: url("/images/sections/detail/detail-bg-lg.jpg");
+    }
+}
+@media (min-width: 1440px) {
+    .detail {
+        background-attachment: fixed;
+    }
+} 
+@media (min-width: 1920px) {
+    .detail {
+        background-image: url("/images/sections/detail/detail-bg-xl.jpg");
+    }
+}
+    
